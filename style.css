@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: min(92%, 600px);
+    text-align: center;
+}
+
+.subtitulo {
+    opacity: 0.8;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 28px;
+    border-radius: 18px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.forca pre {
+    display: inline-block;
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.1;
+}
+
+h2 {
+    letter-spacing: 8px;
+    font-size: 34px;
+}
+
+.formulario {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+input {
+    width: 180px;
+    padding: 12px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+    border: 0;
+    border-radius: 10px;
+    padding: 12px 18px;
+    cursor: pointer;
+    font-weight: bold;
+    background: #00d4ff;
+    color: #111;
+}
+
+button:hover {
+    filter: brightness(1.1);
+}
+
+.secundario {
+    margin-top: 10px;
+    background: #fff;
+}
+
+.mensagem {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sucesso {
+    color: #68ff99;
+}
+
+.erro {
+    color: #ff7b7b;
+}
